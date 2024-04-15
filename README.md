@@ -2,24 +2,18 @@
 
 **ComfyUI InstantMesh** is custom nodes that running [TencentARC/InstantMesh](https://github.com/TencentARC/InstantMesh) into ComfyUI
 
+# Fork updates:
+1. Fixed "target_directory" path
+2. Changed output directory to the ComfyUI default
+
 ![overall](docs/overall.png)
 
 ## Installation
 
-First, this extension depends on [ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack), please install it if not, and make sure it works well:
-1. stop ComfyUI if it is running
-2. goto `ComfyUI/custom_nodes` dir in terminal(cmd)
-3. `git clone https://github.com/MrForExample/ComfyUI-3D-Pack`
-4. cd `ComfyUI-3D-Pack`
-5. run `install_windows_portable_win_py311_cu121.bat`
-
-(Don't start ComfyUI at this moment)  
-Then, install this extension:
-1. `git clone https://github.com/jtydhr88/ComfyUI-InstantMesh`
-2. cd `ComfyUI-InstantMesh`
-3. run `install_windows_portable_win_py311_cu121.bat`
-
-Start your ComfyUI.
+1. Install [ComfyUI-3D-Pack](https://github.com/MrForExample/ComfyUI-3D-Pack), via ComfyUI Manager
+2. Run the post install
+3. Install this extension
+4. Restart ComfyUI.
 
 ## How to use
 
